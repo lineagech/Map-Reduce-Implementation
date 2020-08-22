@@ -1,2 +1,0 @@
-2: word
-6: line with word
