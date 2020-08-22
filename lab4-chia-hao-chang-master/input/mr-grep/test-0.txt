@@ -1,0 +1,10 @@
+asdf
+sample
+word
+line with asdf
+make asdf
+jimmy
+line with word
+other sample
+other asdf
+asdf

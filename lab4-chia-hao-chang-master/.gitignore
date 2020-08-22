@@ -1,0 +1,10 @@
+# the executables
+/mr-wordc
+/mr-grep
+
+# object files
+/mapreduce.o
+
+# output directory
+/output
+

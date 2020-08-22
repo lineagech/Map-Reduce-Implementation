@@ -1,0 +1,5 @@
+0: asdf
+3: line with asdf
+4: make asdf
+8: other asdf
+9: asdf
