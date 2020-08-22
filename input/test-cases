@@ -1,0 +1,19 @@
+wordc_small_buffer 3 10s ./output/mr-wordc/ output_compare/empty.txt ./mr-wordc ./input/mr-wordc/test-2.txt OUTPUT_FILE 1 5
+wordc_test-0_1map_1000B 3 10s ./output/mr-wordc/ output_compare/mr-wordc/test-0.txt ./mr-wordc ./input/mr-wordc/test-0.txt OUTPUT_FILE 1 1000
+wordc_test-1_1map_1000B 3 10s ./output/mr-wordc/ output_compare/mr-wordc/test-1.txt ./mr-wordc ./input/mr-wordc/test-1.txt OUTPUT_FILE 1 1000
+wordc_test-2_1map_1000B 3 10s ./output/mr-wordc/ output_compare/mr-wordc/test-2.txt ./mr-wordc ./input/mr-wordc/test-2.txt OUTPUT_FILE 1 1000
+wordc_test-3_2map_1000B 3 10s ./output/mr-wordc/ output_compare/mr-wordc/test-3.txt ./mr-wordc ./input/mr-wordc/test-3.txt OUTPUT_FILE 2 1000
+wordc_test-3_2map_100B 3 10s ./output/mr-wordc/ output_compare/mr-wordc/test-3.txt ./mr-wordc ./input/mr-wordc/test-3.txt OUTPUT_FILE 2 100
+wordc_doc-0_10map_10000B 5 30s ./output/mr-wordc/ output_compare/mr-wordc/doc-0.txt ./mr-wordc ./input/mr-wordc/doc-0.txt OUTPUT_FILE 10 10000
+wordc_doc-1_20map_10000B 5 90s ./output/mr-wordc/ output_compare/mr-wordc/doc-1.txt ./mr-wordc ./input/mr-wordc/doc-1.txt OUTPUT_FILE 20 10000
+wordc_doc-2_40map_10000B 5 90s ./output/mr-wordc/ output_compare/mr-wordc/doc-2.txt ./mr-wordc ./input/mr-wordc/doc-2.txt OUTPUT_FILE 40 10000
+wordc_doc-3_80map_10000B 5 120s ./output/mr-wordc/ output_compare/mr-wordc/doc-3.txt ./mr-wordc ./input/mr-wordc/doc-3.txt OUTPUT_FILE 80 10000
+wordc_doc-4_100map_10000B 5 180s ./output/mr-wordc/ output_compare/mr-wordc/doc-4.txt ./mr-wordc ./input/mr-wordc/doc-4.txt OUTPUT_FILE 100 10000
+grep_test-0_nothere_1map_1000B 3 10s ./output/mr-grep/ output_compare/mr-grep/test-0_nothere.txt ./mr-grep nothere ./input/mr-grep/test-0.txt OUTPUT_FILE 1 1000
+grep_test-0_asdf_1map_1000B 3 10s ./output/mr-grep/ output_compare/mr-grep/test-0_asdf.txt ./mr-grep asdf ./input/mr-grep/test-0.txt OUTPUT_FILE 1 1000
+grep_test-0_sample_1map_1000B 3 10s ./output/mr-grep/ output_compare/mr-grep/test-0_sample.txt ./mr-grep sample ./input/mr-grep/test-0.txt OUTPUT_FILE 1 1000
+grep_test-0_word_1map_1000B 3 10s ./output/mr-grep/ output_compare/mr-grep/test-0_word.txt ./mr-grep word ./input/mr-grep/test-0.txt OUTPUT_FILE 1 1000
+grep_test-1_periwinkle_20map_10000B 5 30s ./output/mr-grep/ output_compare/mr-grep/test-1_periwinkle.txt ./mr-grep periwinkle ./input/mr-grep/test-1.txt OUTPUT_FILE 20 10000
+grep_test-1_tree_10map_10000B 5 30s ./output/mr-grep/ output_compare/mr-grep/test-1_tree.txt ./mr-grep tree ./input/mr-grep/test-1.txt OUTPUT_FILE 10 10000
+grep_test-1_cat_40map_10000B 5 30s ./output/mr-grep/ output_compare/mr-grep/test-1_cat.txt ./mr-grep cat ./input/mr-grep/test-1.txt OUTPUT_FILE 40 10000
+grep_test-1_the_80map_10000B 5 60s ./output/mr-grep/ output_compare/mr-grep/test-1_the.txt ./mr-grep the ./input/mr-grep/test-1.txt OUTPUT_FILE 80 10000
